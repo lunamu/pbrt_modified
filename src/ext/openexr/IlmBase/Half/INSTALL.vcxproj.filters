@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\363c5b1806f0682fcc6de3d43d291d28\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{9E41D356-BB06-38F3-8C01-5C3BB89457B4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

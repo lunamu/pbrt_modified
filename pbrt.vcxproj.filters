@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\pbrtlex.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\pbrtparse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\api.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\bssrdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\efloat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\fileutil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\film.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\filter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\floatfile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\geometry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\imageio.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\integrator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\interaction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\interpolation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\lightdistrib.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\lowdiscrepancy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\material.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\medium.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\memory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\microfacet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\parallel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\paramset.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\parser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\primitive.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\progressreporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\reflection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sampling.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\shape.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sobolmatrices.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\spectrum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\stats.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\texture.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\transform.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\ArHosekSkyModel.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\lodepng.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\rply.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\targa.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\accelerators\bvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\accelerators\kdtreeaccel.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\cameras\environment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\cameras\orthographic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\cameras\perspective.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\cameras\realistic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\filters\box.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\filters\gaussian.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\filters\mitchell.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\filters\sinc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\filters\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\bdpt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\directlighting.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\mlt.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\path.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\sppm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\volpath.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\integrators\whitted.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\diffuse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\distant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\goniometric.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\infinite.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\point.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\projection.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\lights\spot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\fourier.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\glass.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\hair.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\kdsubsurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\matte.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\metal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\mirror.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\mixmat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\plastic.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\substrate.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\subsurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\translucent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\materials\uber.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\halton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\maxmin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\random.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\sobol.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\stratified.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\samplers\zerotwosequence.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\cone.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\curve.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\cylinder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\disk.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\heightfield.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\hyperboloid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\loopsubdiv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\nurbs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\paraboloid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\plymesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\shapes\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\bilerp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\checkerboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\constant.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\dots.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\fbm.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\imagemap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\marble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\mix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\scale.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\uv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\windy.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\textures\wrinkled.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\media\grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\media\homogeneous.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\api.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\bssrdf.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\efloat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\fileutil.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\film.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\filter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\floatfile.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\geometry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\imageio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\integrator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\interaction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\interpolation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\lowdiscrepancy.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\medium.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\memory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\microfacet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\mipmap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\parallel.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\paramset.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\parser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\pbrt.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\port.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\primitive.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\progressreporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\reflection.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\rng.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sampler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sampling.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\shape.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\sobolmatrices.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\spectrum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\stats.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\stringprint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core\transform.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67F73141-9946-3B84-8BE5-7F12483D1B3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{3DAE8039-FE75-3FD8-B1B6-067DD250CDCC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

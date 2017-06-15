@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\IexMath\IexMathFloatExc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\IexMath\IexMathFpu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\IexMath\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{67F73141-9946-3B84-8BE5-7F12483D1B3F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

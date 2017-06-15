@@ -1,0 +1,361 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{501F805B-4C0D-36FD-BECE-E47023E65879}</ProjectGUID>
+    <WindowsTargetPlatformVersion>10.0.14393.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>pbrt_exe</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v140</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pbrt_exe.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pbrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pbrt_exe.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pbrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pbrt_exe.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">pbrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pbrt_exe.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">pbrt</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Debug\libpbrt.lib;src\ext\openexr\OpenEXR\IlmImf\Debug\IlmImf.lib;src\ext\openexr\IlmBase\Imath\Debug\Imath.lib;src\ext\openexr\IlmBase\Half\Debug\Half.lib;src\ext\zlib\Debug\zlibstatic.lib;src\ext\glog\Debug\glog.lib;src\ext\openexr\IlmBase\IlmThread\Debug\IlmThread.lib;src\ext\openexr\IlmBase\Iex\Debug\Iex.lib;src\ext\zlib\Debug\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/Debug/pbrt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/Debug/pbrt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;Release\libpbrt.lib;src\ext\openexr\OpenEXR\IlmImf\Release\IlmImf.lib;src\ext\openexr\IlmBase\Imath\Release\Imath.lib;src\ext\openexr\IlmBase\Half\Release\Half.lib;src\ext\zlib\Release\zlibstatic.lib;src\ext\glog\Release\glog.lib;src\ext\openexr\IlmBase\IlmThread\Release\IlmThread.lib;src\ext\openexr\IlmBase\Iex\Release\Iex.lib;src\ext\zlib\Release\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/Release/pbrt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/Release/pbrt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;MinSizeRel\libpbrt.lib;src\ext\openexr\OpenEXR\IlmImf\MinSizeRel\IlmImf.lib;src\ext\openexr\IlmBase\Imath\MinSizeRel\Imath.lib;src\ext\openexr\IlmBase\Half\MinSizeRel\Half.lib;src\ext\zlib\MinSizeRel\zlibstatic.lib;src\ext\glog\MinSizeRel\glog.lib;src\ext\openexr\IlmBase\IlmThread\MinSizeRel\IlmThread.lib;src\ext\openexr\IlmBase\Iex\MinSizeRel\Iex.lib;src\ext\zlib\MinSizeRel\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>No</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/MinSizeRel/pbrt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/MinSizeRel/pbrt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <OpenMPSupport>true</OpenMPSupport>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;YY_NO_UNISTD_H;GLOG_NO_ABBREVIATED_SEVERITIES;GOOGLE_GLOG_DLL_DECL=;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\zlib;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Imath;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Half;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\IlmBase\Iex;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\openexr\OpenEXR\IlmImf;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\IlmBase\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\openexr\OpenEXR\config;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\src\ext\glog;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\core;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\ext\glog\src\windows;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:x64 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib;RelWithDebInfo\libpbrt.lib;src\ext\openexr\OpenEXR\IlmImf\RelWithDebInfo\IlmImf.lib;src\ext\openexr\IlmBase\Imath\RelWithDebInfo\Imath.lib;src\ext\openexr\IlmBase\Half\RelWithDebInfo\Half.lib;src\ext\zlib\RelWithDebInfo\zlibstatic.lib;src\ext\glog\RelWithDebInfo\glog.lib;src\ext\openexr\IlmBase\IlmThread\RelWithDebInfo\IlmThread.lib;src\ext\openexr\IlmBase\Iex\RelWithDebInfo\Iex.lib;src\ext\zlib\RelWithDebInfo\zlibstatic.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>Debug</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/RelWithDebInfo/pbrt.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/RelWithDebInfo/pbrt.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version>
+      </Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master -BC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build --check-stamp-file C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBISON.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindFLEX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master -BC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build --check-stamp-file C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBISON.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindFLEX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master -BC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build --check-stamp-file C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBISON.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindFLEX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -HC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master -BC:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build --check-stamp-file C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCCompiler.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeCXXCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\3.7.0-rc2\CMakeRCCompiler.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindBISON.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindFLEX.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.7\Modules\CMakeParseArguments.cmake;C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Lunam\Dropbox\Projects\pbrt-v3-master\src\main\pbrt.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/ZERO_CHECK.vcxproj">
+      <Project>0F610450-241F-307F-94AE-EDA27044349F</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/openexr/IlmBase/Half/Half.vcxproj">
+      <Project>32CD8212-B14F-3492-B4F1-09F051BA2A89</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/openexr/IlmBase/Iex/Iex.vcxproj">
+      <Project>D010B8EA-483F-342D-845B-67CCF0A1C394</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/openexr/OpenEXR/IlmImf/IlmImf.vcxproj">
+      <Project>82E12B32-D200-3AAF-A7D2-730E09DC5190</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/openexr/IlmBase/IlmThread/IlmThread.vcxproj">
+      <Project>B1437136-E699-380D-81EC-202D9597A48C</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/openexr/IlmBase/Imath/Imath.vcxproj">
+      <Project>6EA9E431-290E-3CF6-BA85-65626F68CF1E</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/glog/glog.vcxproj">
+      <Project>237BCB75-BC86-305C-BA54-202E0CD52A38</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/pbrt.vcxproj">
+      <Project>33F26347-3B8F-3D8E-A893-11E5D797CDC0</Project>
+    </ProjectReference>
+    <ProjectReference Include="C:/Users/Lunam/Dropbox/Projects/pbrt-v3-master/build/src/ext/zlib/zlibstatic.vcxproj">
+      <Project>CF1463B4-460A-38CD-80E3-25AAD8066FF6</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
